@@ -1,0 +1,529 @@
+;=======================================================================
+; Forwardfile BayCom Mailbox DBO274   von Markus Baumann DGT274 27.11.02
+;=======================================================================
+;   Die Optionen der Forward-Abschnitte zusammengefasst:
+;
+;  -b<bytes>  maximale Groesse der geforwardeten Mail
+;  -d         (delay) forward nur mehr zu den in crontab.bcm angegeben Zeiten
+;  -e         E/M-Files 4Zeilig (allerdings in 1 Frame) senden (fuer DB0SAO)
+;  -f         Leerzeile vor Beginn des Forwarding senden (fuer TCPIP)
+;  -i         es werden AutoBIN Mails zur Nachbar-Box geschickt, obwohl diese
+;             kein "D"-Feature im SID anbietet
+;  -k         kein S&F von Bulletins im Autobin-Format
+;  -l         kein S&F von persoenlichen Nachrichten im Autobin-Format
+;  -m         kein S&F von Bulletins im 7plus-Format
+;  -n         kein S&F von persoenlichen Nachrichten im 7plus-Format
+;  -o         Eintraege werden nach Nachrichtengroesse sortiert (kleine zuerst)
+;  -p         laesst nach dem Login den Prompt weg (fuer DB0SAO erforderlich)
+;  -r         sendet AUSSCHLIESSLICH die angegebenen Boards zur Nachbarbox
+;  -s         SID wird von connectender Box SOFORT gesendet
+;  -t         Tracing aktiv (bei fwdtrace 2)
+;  -u         Verbindung wird sofort abgebaut, normalerweise wird am Ende des
+;             S&F kurz auf noch eintreffende Nachrichten gewartet
+;=======================================================================
+
+;      012345678901234567890123
+DBO982 AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE NRW DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+   DBO982
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBX387 AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE MVP DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .#PI .SLH
+ ; Mailboxen
+   DBX387 BS9BOX DBO230 DBO244 DBO580 DBX258 DBX309 DBX314 DBX386 DBX523
+   DBX645 DBX874 EL2BBS FR0BBS GF4BOX KL1MBX MS3BOX ND1BOX
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DDX898 AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET NRW
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+  .#MG .MG
+ ; Mailboxen
+   DDX898
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+FT0BOX AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .SAX .#SAX .SAA .#SAA .THR .#THR
+ ; Mailboxen
+   FT0BOX
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+GPN38W AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .SLH .#SLH .MVP .#MVP
+ ; Mailboxen
+   GPN38W DBX997
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+ARG003 AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE AMSAT ARRL WW NASA FBBNWS
+  THEBOX BAYCOM BCM DPNET ARG
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .ARG
+ ; Bundesländer
+ ; Mailboxen
+   ARG003
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+PGI0PS AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE AMSAT ARRL EU WW NASA FBBNWS
+  THEBOX BAYCOM DPNET ITA
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .ITA
+ ; Bundesländer
+ ; Mailboxen
+   PGI0PS I5LUCC BR3NTA ITA*
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+SF6BOX AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE AMSAT ARRL EU WW NASA FBBNWS
+  THEBOX BAYCOM DPNET FIN
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .FIN
+ ; Bundesländer
+ ; Mailboxen
+   SF6BOX FI6BBS SF6WIC
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+W1BOX AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE SLH MVP DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .#RD
+ ; Mailboxen
+   W1BOX PR0BBS DBO587 DBO651
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+BW1BBS AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .NDS .#NDS .#HM .#HI .#HOL
+ ; Mailboxen
+   BW1BBS DBX484 DBX441 DT1BOX EU1BOX EU4BOX
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBB319 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / DNX319 / DBB319
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .NRW .#NRW
+ ; Mailboxen
+   DBB319 MK1BBS
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBO251 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / DNX406 / DNX250 dix250 / DBO251
+ ; Verteiler
+  ALL ALLE NRW DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+   DBO251 DBX814 MG1BOX
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBO406 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / DNX406 / DBO406
+ ; Verteiler
+  ALL ALLE NRW OWL DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+   MI2BOX DBO406
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBO501 AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; .DEU
+ ; Bundesländer
+   .#SB
+ ; Mailboxen
+   DBO501 HEP230
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBO665 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / MS0NOD / DBO665
+ -k
+ ; Verteiler
+  ALL ALLE DL DEU EU NRW AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+   DBO665
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBO812 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / DBO812
+ ; Verteiler
+  ALL ALLE DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+  THEBOX BAYCOM DPNET BCM
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .BAY .#BAY .OBB .#OBB
+   .#GF .#WOB
+ ; Mailboxen
+   DBO805 DBO811 DBO530 DBO500 DBO814 DBO852 DBO284
+   NB0PAF CB0ESN DA0BOX SB0BOX IM3BOX
+   DBX314 DBX254 DBX994 DBX994 DBX275 DBX846
+   DBQ207 DBQ321 DBQ822
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBQ323 AAAAAAAAAAAUUUUUUUUUUUUP DNX274-2 / DNQ323 / DBQ323
+ ; Verteiler
+  ALL ALLE NRW OWL DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+   DBQ323 BI9BOX BI8BOX BI7BOB DBO360 DBQ247 DBQ237 DBI*
+ ; E/M-Mails
+   $EM
+;=======================================================================
+;      012345678901234567890123
+DBQ343 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / DBQ343
+ ; Verteiler
+  MZWI RMPG HES ALL ALLE DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .HES .#HES
+ ; Mailboxen
+   DBQ343 DBX999 DBO580 DBO935
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBQ555 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / DNQ555 / DBQ555
+ ; Verteiler
+  ALL ALLE DL DEU EU NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .HB .#HB .HH .#HH .BLN .#BLN .BRB .#BRB
+ ; Mailboxen
+   DBQ555 DBO158 HEN500 KL1MBX DBQ902 DBO897 HEP244
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DBX411 AAAAAAAA..............AP DNX274-2 / DIX613 / DNO411 / DBX411
+ ; Verteiler
+  BW ALL ALLE DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+   DBX411
+ ; E/M-Mails
+   $EM
+;=======================================================================
+;      012345678901234567890123
+DBX570 AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / DNO572 / DBX570
+ -k
+ ; Verteiler
+  ALL ALLE DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+ THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+  DBX570 DBX575 HEM211
+ ; E/M-Mails
+  $WP
+;=======================================================================
+;      012345678901234567890123
+DBX594 AAAAAAAAAAAAAAAAAAAAAAAP
+ -k
+ ; Verteiler
+  ALL ALLE NRW DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+   .DO
+ ; Mailboxen
+   DBX594
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+N03BOX AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / SBKDIG / N03BOX
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+   .DEU .EU .EURO .WW
+ ; Bundesländer
+ ; Mailboxen
+    N03BOX DBX405 DBO404 DBO393
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+RT0BBS AAAAAAAAAAAAAAAAAAAAAAAP telnet:195.127.102.100:6300
+ -S
+ ; Verteiler
+  ALL ALLE DL DEU EU WW NASA AMSAT ARRL FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+   .DEU .AT .EU .EURO .WW .CH .POR .GBR
+ ; Bundesländer
+   .BW .#BW .RPL .#RPL
+ ; Mailboxen
+   RT0BBS CZ0PEQ CZ0PTU CZ0PQX GA3DHG K1MBBS TO2BBS HER219 DBO927 HER242 POR1PC
+   ENG068
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+CZ0PRB AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / CZ0NTU / CZ0PRB
+ ; Verteiler
+   ALL EU WW
+ ; THEBOX BAYCOM BAYBOX DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES *HUMOR
+ ; Kontinente
+ ; Länder
+   .CZE
+ ; Bundesländer
+ ; Mailboxen
+   CZ0*
+   *CZ0PEQ
+   *CZ0PTU
+   *CZ0PQX
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+DNK121 AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE AMSAT ARRL EU WW NASA FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .DNK .POL
+ ; Bundesländer
+ ; Mailboxen
+   DNK121 DNK123 DEN23X BBS1HK HEE205 FRA199 IT5TNT IT1SPE NL3LW
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+FRA446 AAAAAAAAAAAAAAAAAAAAAAAP
+;telnet:212.27.59.231:6300
+ ; Verteiler
+  ALL ALLE AMSAT ARRL EU WW NASA FBBNWS
+  THEBOX BAYCOM DPNET FRA FRAPG FRANCA
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .FRA .ESP .RUS .SPA .NOR
+ ; Bundesländer
+ ; Mailboxen
+   FRA446 FRA435 FRA049 EU1FWD FRA* ESP* EGR1AA NOR032 SAR0CA SAR1CA
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+FRA566 AAAAAAAAAAAAAAAAAAAAAAAP
+ ; Verteiler
+  ALL ALLE AMSAT ARRL EU WW NASA FBBNWS
+  THEBOX BAYCOM DPNET FRA FRAPG FRANCA
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .FRA
+ ; Bundesländer
+ ; Mailboxen
+   FRA566
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+KS1BBS AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / KS1NOD / KS1BBS
+ ; Verteiler
+  ALL ALLE DL DEU EU AT WW OEDL AMSAT ARRL NASA USENET FBBNWS
+ THEBOX BAYCOM DPNET BCM
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+ ; Bundesländer
+ ; Mailboxen
+  KS1BBS EU0BBS
+ ; E/M-Mails
+  $WP
+;=======================================================================
+;      012345678901234567890123
+MW1RTD AAAAAAAAAAAAAAAAAAAAAAAP DNX274-2 / MWGATE / MWNODE / MW1RTD
+;telnet:195.66.28.254:3602
+ ; Verteiler
+  ALL ALLE AMSAT ARRL EU WW NASA FBBNWS
+  THEBOX BAYCOM DPNET BNL NL BNLPG NLPG
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .BNL .NL .ZHNET .NLD .NLNET .BEL .HOLL
+ ; Bundesländer
+ ; Mailboxen
+   MW1RTD ZH6GSD RV3DHC RR0WEB ITA3LC
+ ; E/M-Mails
+   $WP
+;=======================================================================
+;      012345678901234567890123
+PWR48N AAAAAAAAAAAAAAAAAAAAAAAP telnet:pwr48n.dynu.com:23
+ -S
+ ; Verteiler
+  ALL ALLE AMSAT ARRL EU WW NASA FBBNWS
+  THEBOX BAYCOM DPNET
+ ; Rubriken, die NICHT geforwardet werden sollen
+  *LOKALES
+ ; Kontinente
+ ; Länder
+  .DNK .POL
+ ; Bundesländer
+ ; Mailboxen
+   PWR48N
+ ; E/M-Mails
+   $WP

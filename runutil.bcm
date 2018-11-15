@@ -1,0 +1,48 @@
+; runutil.bcm for Baybox
+;----------------------------------------------------------------------------
+;  Format:
+;  <command> "<program>"  <options> ; <comment>
+;
+;  <command>  .. bbs command associated with runutil
+;  <program>  .. program which should be executed
+;  <options>  .. options needed for runutil
+;  <comment>  .. description
+;
+;  Options are:
+;  -a  interactive (use only without other commands!)
+;  -s  only sysop
+;  -f  only available in filesurf mode
+;  -q  no creation of file "rundat.bcm"
+;  -c  no line parameters to runutil
+;  -i  no interactive user input to runutil (win32/linux)
+;  -p  only available for user with ax25 password set
+;  -d  (only linux/win32) path parameters are set like dpbox
+;      (for runutils 7get, 7mail, bsget from dpbox)
+;  -t  chars like "|",">" and "<" are sent to runutil (only linux)
+;----------------------------------------------------------------------------
+BIN*READ  /bcm/run/binread             Gepacktes Auslesen von Mails
+DI*GIINFO digiinfo            -q       Infos zu Digipeatern anzeigen
+MEM*INFO  "cat /proc/meminfo" -qc      Anzeigen der Speicher-Auslastung
+PSL*INUX  "ps aux"                     alle Linux-Prozesse anzeigen
+FILENAME  filename            -qs      Dateiname einer Mail suchen   (SYSOP)
+FM*AIL    fmail               -s       Erzeugen einer F-Mail         (SYSOP)
+USERSTAT  userstat            -s       Userstatistik               (SYSOP)
+READSTAT  readstat                     Boardstatistik
+FL*OG     ./flog                       S&F-Statistik Digis (flog <yymmdd>)
+UL*OG     ./ulog                       Useraufkommen (ulog <yymmdd>)
+QTH       qth                 -I       Locator abfragen/berechnen
+NEWS      /bcm/run/news                News und Termine
+SYSINFO   ./sysinfo                    Systeminfos
+7*MAIL    7mail               -faD     Als Mail per 7Plus lesen   (FILESURF)
+7G*ET     7get                -faD     Auslesen per 7plus         (FILESURF)
+7C*OR     7cor                -faD     COR-File auf ERR erstellen (FILESURF)
+BS*GET    bsget               -faD     Auslesen in Binaerteilen   (FILESURF)
+V*IEW     fileview            -fD      Dateiarchive auflisten     (FILESURF)
+I*NFO     fileinfo            -fD      Dateibeschreibung lesen    (FILESURF)
+F*IND     filefind            -fD      Dateien suchen             (FILESURF)
+N*EW      filenew             -fD      neue Dateien listen        (FILESURF)
+XD*IR     filexdir            -fD      Extended "DIR"             (FILESURF)
+FSE*DIT   fsedit              -fasD    Dateibeschreibung erstellen(FILESURF)
+FSD*EL    fsdel               -fasD    Dateibeschreibung loeschen (FILESURF)
+SYS7M*AIL sys7mail            -fasD    7Mail ohne Limits          (FILESURF)
+HILFE     fshelp              -fD      Hilfe fuer FS              (FILESURF)

@@ -1,0 +1,57 @@
+oshell cat /bcm/fwd/failed/FT0BOX* > /bcm/fwd/import/ft0box.txt
+oshell rm /bcm/fwd/failed/FT0BOX*
+fwdimport ft0box fwd/import/ft0box.txt
+oshell rm /bcm/fwd/import/ft0box.txt
+oshell cat /bcm/fwd/failed/DNK121* > /bcm/fwd/import/dnk121.txt
+oshell rm /bcm/fwd/failed/DNK121*
+fwdimport dnk121 fwd/import/dnk121.txt
+oshell rm /bcm/fwd/import/dnk121.txt
+oshell cat /bcm/fwd/failed/DBO982* > /bcm/fwd/import/dbo982.txt
+oshell rm /bcm/fwd/failed/DBO982*
+fwdimport dbo982 fwd/import/dbo982.txt
+oshell rm /bcm/fwd/import/dbo982.txt
+oshell cat /bcm/fwd/failed/DBO398* > /bcm/fwd/import/dbo398.txt
+oshell rm /bcm/fwd/failed/DBO398*
+fwdimport dbo398 fwd/import/dbo398.txt
+oshell rm /bcm/fwd/import/dbo398.txt
+oshell cat /bcm/fwd/failed/PGI0PS* > /bcm/fwd/import/pgi0ps.txt
+oshell rm /bcm/fwd/failed/PGI0PS*
+fwdimport pgi0ps fwd/import/pgi0ps.txt
+oshell rm /bcm/fwd/import/pgi0ps.txt
+oshell cat /bcm/fwd/failed/GPN80T* > /bcm/fwd/import/gpn80t.txt
+oshell rm /bcm/fwd/failed/GPN80T*
+fwdimport gpn80t fwd/import/gpn80t.txt
+oshell rm /bcm/fwd/import/gpn80t.txt
+oshell cat /bcm/fwd/failed/SJ1BBS* > /bcm/fwd/import/sj1bbs.txt
+oshell rm /bcm/fwd/failed/SJ1BBS*
+fwdimport sj1bbs fwd/import/sj1bbs.txt
+oshell rm /bcm/fwd/import/sj1bbs.txt
+oshell cat /bcm/fwd/failed/DBQ555* > /bcm/fwd/import/dbq555.txt
+oshell rm /bcm/fwd/failed/DBQ555*
+fwdimport dbq555 fwd/import/dbq555.txt
+oshell rm /bcm/fwd/import/dbq555.txt
+oshell cat /bcm/fwd/failed/DBX841* > /bcm/fwd/import/dbx841.txt
+oshell rm /bcm/fwd/failed/DBX841*
+fwdimport dbx841 fwd/import/dbx841.txt
+oshell rm /bcm/fwd/import/dbx841.txt
+oshell cat /bcm/fwd/failed/DBX692* > /bcm/fwd/import/dbx692.txt
+oshell rm /bcm/fwd/failed/DBX692*
+fwdimport dbx692 fwd/import/dbx692.txt
+oshell rm /bcm/fwd/import/dbx692.txt
+oshell cat /bcm/fwd/failed/SF6BOX* > /bcm/fwd/import/sf6box.txt
+oshell rm /bcm/fwd/failed/SF6BOX*
+fwdimport sf6box fwd/import/sf6box.txt
+oshell rm /bcm/fwd/import/sf6box.txt
+oshell cat /bcm/fwd/failed/DBB319* > /bcm/fwd/import/dbb319.txt
+oshell rm /bcm/fwd/failed/DBB319*
+fwdimport dbb319 fwd/import/dbb319.txt
+oshell rm /bcm/fwd/import/dbb319.txt
+oshell cat /bcm/fwd/failed/DDX898* > /bcm/fwd/import/ddx898.txt
+oshell rm /bcm/fwd/failed/DDX898*
+fwdimport ddx898 fwd/import/ddx898.txt
+oshell rm /bcm/fwd/import/ddx898.txt
+oshell cat /bcm/fwd/failed/DBO566* > /bcm/fwd/import/dbo566.txt
+oshell rm /bcm/fwd/failed/DBO566*
+fwdimport dbo566 fwd/import/dbo566.txt
+oshell rm /bcm/fwd/import/dbo566.txt
+

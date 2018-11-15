@@ -1,0 +1,317 @@
+;========================================================================
+; Forwardfile: OpenBCM Mailbox DB0FHN      Markus Baumann DH8YMB 24.07.06
+;========================================================================
+;========================================================================
+;
+; These are all possible S&F options:
+;
+;  -b<bytes>  maximum size of forward mails ( > 10k)
+;  -d         (delay) S&F only at set times of "crontab.bcm"
+;  -e         send E/M files with 4 lines in 1 frame (e.g. DB0SAO)
+;  -f         send empty line before start S&F (e.g. xNOS)
+;  -i         BoxBin mails are forwarded regardless of the capabilites of
+;             the receiving system (not useful in most cases)
+;  -k         no forward of autobin bulletins
+;  -l         no forward of autobin user mails
+;  -m         no forward of 7plus bulletins
+;  -n         no forward of 7plus user mails
+;  -o         entries are sorted by size (smallest at first)
+;  -p         suppress prompt after login (e.g. needed for DB0SAO)
+;  -r         send ONLY bulletins from "fwd.bcm" to S&F partner
+;  -s         SID is send immediately of connected BBS
+;  -t         tracing active (if "fwdtrace 2" is set)
+;  -u         connection is closed immediately, without this parameter S&F
+;             is waiting for some time if new mails can be forwarded
+;
+; Note: You should use option "-l" and "-k" ONLY in that case, if S&F partner
+; can't handle 7plus or autobin mails, like shortwave gateways. Don't restrict
+; user mails without reason!
+;
+; Parameter "-b" makes only sense, if S&F partner only supports ASCII S&F
+; protocol (from WA7MBL). Internally OBCM limits the size of one mail at the
+; moment to 10 MBytes. Every option must be separated through spaces, if
+; you use more than one.
+;
+;=======================================================================
+; Overview over possible usermail hpath addresses
+;=======================================================================
+;
+; a) Regional
+;
+; in Germany:
+;.#BAY   Bayern
+;.#BLN   Berlin
+;.#BW    Baden-Wuerttemberg
+;.#BRB   Brandenburg
+;.#HB    Hansestadt Bremen
+;.#HH    Hansestadt Hamburg
+;.#HES   Hessen
+;.#MVP   Mecklenburg-Vorpommern
+;.#NDS   Niedersachsen
+;.#NRW   Nordrhein-Westfalen
+;.#RPL   Rheinland-Pfalz
+;.#SAA   Sachsen-Anhalt
+;.#SAR   Saarland
+;.#SAX   Sachsen
+;.#SLH   Schleswig-Holstein
+;.#THR   Thueringen
+;
+; in Austria:
+; .#OE1  Wien
+; .#OE2  Salzburg
+; .#OE3  Niederoesterreich
+; .#OE4  Burgenland
+; .#OE5  Oberoesterreich
+; .#OE6  Steiermark
+; .#OE7  Tirol
+; .#OE8  Kaernten
+; .#OE9  Vorarlberg
+;
+; in Czechia:
+; .#MOR  Maehren
+; .#BOH  Boehmen
+;
+; b) Europe
+;
+;.ALB    Albanien
+;.AND    Andorra
+;.AUT    Oesterreich
+;.BEL    Belgien
+;.BGR    Bulgarien
+;.BIH    Bosnien-Herzegowina
+;.BLR    Weissrussland
+;.CHE    Schweiz
+;.CZE    Tschechien
+;.DEU    Deutschland
+;.DNK    Daenemark
+;.ESP    Spanien
+;.EST    Estland
+;.FIN    Finnland
+;.FRA    Frankreich
+;.FRO    Faroer Inseln
+;.GBR    Groﬂbritanien
+;.GIB    Gibraltar
+;.GRC    Griechenland
+;.GRL    Groenland
+;.HRV    Kroatien
+;.HUN    Ungarn
+;.IRL    Irland
+;.ISL    Island
+;.ITA    Italien
+;.LIE    Lichtenstein
+;.LTU    Litauen
+;.LUX    Luxemburg
+;.LVA    Lettland
+;.MCO    Monaco
+;.MDA    Moldawien
+;.MKD    Mazedonien
+;.MLT    Malta
+;.MSR    Monserrat
+;.NLD    Niederlande
+;.NOR    Norwegen
+;.POL    Polen
+;.PRT    Portugal
+;.ROM    Rumaenien
+;.RUS    Russische Foerderation
+;.SJM    Svalbard / Jan Mayen
+;.SMR    San Marino
+;.SVK    Slowakei
+;.SVN    Slowenien
+;.SWE    Schweden
+;.TUR    Tuerkei
+;.UKR    Ukraine
+;.VAT    Vatikan
+;.YUG    Rest-Yugoslawien
+;
+; c) Continents
+;
+;.AF     Afrika
+;.AFRC   Afrika
+;.AS     Asien
+;.ASIA   Asien
+;.AU     Australien
+;.AUST   Australien
+;.CEAM   Zentralamerika
+;.EU     Europa
+;.NA     Nordamerika
+;.NOAM   Nordamerika
+;.OC     Oceanien
+;.OCEA   Oceanien
+;.SA     Suedamerika
+;.SOAM   Suedamerika
+;
+;=======================================================================
+;
+;
+;=======================================================================
+; OpenBCM-Mailbox Wunsiedel JO60AB Sysop DL1NAL
+;-----------------------------------------------------------------------
+DB0MRW AAPAAAAAPAAAAAPAAAAAAAPA DB0MRW-8 DB0FHN
+;-----------------------------------------------------------------------
+; Usermails:
+;-----------------------------------------------------------------------
+; Continents (without own continent):
+ .AF .AFRC .AS .ASIA .AU .AUST .CEAM .NA .NOAM .OC .OCEA .SA .SOAM
+; Countries (without own country):
+ .ALB .AND .AUT .BEL .BGR .BIH .BLR .CHE .CZE .DNK .ESP .EST .FIN .FRA
+ .FRO .GBR .GIB .GRC .GRL .HRV .HUN .IRL .ISL .ITA .LIE .LTU .LUX .LVA
+ .MCO .MDA .MKD .MLT .MSR .NLD .NOR .POL .PRT .ROM .RUS .SJM .SMR .SVK
+ .SVN .SWE .TUR .UKR .VAT .YUG
+; Regions (without own region):
+ .#BLN .#BRB .#BW  .#HB  .#HES .#HH  .#MVP .#NDS .#NRW .#RPL .#SAA .#SAR
+ .#SAX .#SLH
+; Local region mailboxes (without own mailbox):
+ DB0AAB DB0AHO DB0BOX DB0FFB DB0FSG DB0FP  DB0GAP DB0IRS DB0IGL DB0ISW
+ DB0KFB DB0LAN DB0MAK DB0MRW DK0MUC DK0MUN DB0PV  DB0PM  DB0SL  DB0SWQ
+ DB0ULM DB0WGS DB0WUE DK0WUE DB0ZB  DB0ZKA
+; additional BBS:
+ KB9MMA KB9MMC K9BBS  G8LMC  G4FHN  XE1FH  M0AWB  VK4HMD
+;-----------------------------------------------------------------------
+; Bulletins:
+;-----------------------------------------------------------------------
+; Bulletin distributors:
+ ALL WW DL DLOE OEDL OE EU AMSAT BAYCOM THEBOX BAY NBA
+; Local boards never forwarded:
+ *LOKAL *STATISTI
+;-----------------------------------------------------------------------
+; Exchange of WROT/WP/MYBBS information:
+;-----------------------------------------------------------------------
+ $WP
+;=======================================================================
+;
+;
+;=======================================================================
+; BCM-Mailbox Regensburg JN69BA Sysop DC2RPT
+;-----------------------------------------------------------------------
+DB0RGB AAAAAAAAAAAAAAAAAAAAAAPA DB0RGB-8 DB0FHN
+;-----------------------------------------------------------------------
+; Usermails:
+;-----------------------------------------------------------------------
+; Continents (without own continent):
+; Countries (without own country):
+; Regions (without own region):
+; Local region mailboxes (without own mailbox):
+ DB0RGB
+; additional BBS:
+ GB7OAR IZ6ASI EB8BBM EA5DVS
+;-----------------------------------------------------------------------
+; Bulletins:
+;-----------------------------------------------------------------------
+; Bulletinverteiler:
+ WW DL OE EU AMSAT BAYCOM THEBOX BAY NBA
+; Lokal gehaltene Rubriken:
+ *LOKAL *STATISTI
+;-----------------------------------------------------------------------
+; Exchange of WROT/WP/MYBBS information:
+;-----------------------------------------------------------------------
+ $WP
+;=======================================================================
+;
+;
+;=======================================================================
+; DP-Mailbox Erlangen JN59MO Sysop DG2NBN
+;-----------------------------------------------------------------------
+DB0FOR AAAAAAAAAAAAAAAAAAAAAAPA DB0FOR-8 DB0FHN
+;-----------------------------------------------------------------------
+; Usermails:
+;-----------------------------------------------------------------------
+; Continents (without own continent):
+; Countries (without own country):
+; Regions (without own region):
+; Local region mailboxes (without own mailbox):
+ DB0FOR DB0PM
+; additional BBS:
+;-----------------------------------------------------------------------
+; Bulletins:
+;-----------------------------------------------------------------------
+; Bulletinverteiler:
+ WW DL OE EU AMSAT BAYCOM THEBOX BAY NBA
+; Lokal gehaltene Rubriken:
+ *LOKAL *STATISTI
+;-----------------------------------------------------------------------
+; Exchange of WROT/WP/MYBBS information:
+;-----------------------------------------------------------------------
+ $WP
+;=======================================================================
+;
+;
+;=======================================================================
+; OpenBCM-Mailbox Schneekopf JO50JP Sysop DO4ARM
+;-----------------------------------------------------------------------
+DB0THA AAAAAAAAAAAAAAAAAAAAAAPA DB0THA-15 DB0FHN
+;-----------------------------------------------------------------------
+; Usermails:
+;-----------------------------------------------------------------------
+; Continents (without own continent):
+; Countries (without own country):
+; Regions (without own region):
+ .#THR
+; Local region mailboxes (without own mailbox):
+  DB0THA
+; additional BBS:
+;-----------------------------------------------------------------------
+; Bulletins:
+;-----------------------------------------------------------------------
+; Bulletinverteiler:
+ WW DL OE EU AMSAT BAYCOM THEBOX
+; Lokal gehaltene Rubriken:
+ *LOKAL *STATISTI
+;-----------------------------------------------------------------------
+; Exchange of WROT/WP/MYBBS information:
+;-----------------------------------------------------------------------
+ $WP
+;=======================================================================
+;
+;
+;=======================================================================
+; OpenBCM-Mailbox Noerdlingen JN58GT Sysop DG4MFN
+;-----------------------------------------------------------------------
+DB0NOE AAAAAAAAAAAAAAAAAAAAAAPA DB0NOE-8 DB0FHN
+;-----------------------------------------------------------------------
+; Usermails:
+;-----------------------------------------------------------------------
+; Continents (without own continent):
+; Countries (without own country):
+; Regions (without own region):
+; Local region mailboxes (without own mailbox):
+  DB0NOE
+; additional BBS:
+;-----------------------------------------------------------------------
+; Bulletins:
+;-----------------------------------------------------------------------
+; Bulletinverteiler:
+ WW DL OE EU AMSAT BAYCOM THEBOX BAY NBA
+; Lokal gehaltene Rubriken:
+ *LOKAL *STATISTI
+;-----------------------------------------------------------------------
+; Exchange of WROT/WP/MYBBS information:
+;-----------------------------------------------------------------------
+ $WP
+;=======================================================================
+;
+;
+;=======================================================================
+; DP-Mailbox Nordwestschweiz Sysop DK2GO (nur zu ACTIVE ROUTING Tests!)
+;-----------------------------------------------------------------------
+HB9EAS AAAAAAAAAAAAAAAAAAAAAAPA HB9EAS-8 DB0FHN IGATE
+ -U
+;-----------------------------------------------------------------------
+; Usermails:
+;-----------------------------------------------------------------------
+; Continents (without own continent):
+; Countries (without own country):
+; Regions (without own region):
+; Local region mailboxes (without own mailbox):
+; additional BBS:
+;-----------------------------------------------------------------------
+; Bulletins:
+;-----------------------------------------------------------------------
+; Bulletinverteiler:
+ THEBOX
+; Rubriken:
+ TEST
+;-----------------------------------------------------------------------
+; Exchange of WROT/WP/MYBBS information:
+;-----------------------------------------------------------------------
+ $WP
+;=======================================================================

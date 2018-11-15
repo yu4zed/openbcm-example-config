@@ -1,0 +1,21 @@
+;-----------------------------------------------------------------------
+; Timing-File for OpenBCM-Mailbox DBO274 crontab.bcm
+;
+;ranges:
+;minute: 0-59    hour: 0-23     day: 1-31     month: 1-12
+;weekday: 0-6    (0:sun 1:mon 2:tue 3:wed 4:thu 5:fri 6:sat)
+;
+;minute  hour  day month weekday   command
+*          *    *    *     *       minute
+0,30       *    *    *     *       halfhour
+1          *    *    *     *       beacon
+3,33       *    *    *     *       forward
+5          2    *    *     *       postfwd
+5          3    *    *     *       purge
+5,35       *    *    *     *       mailimport
+35         6    *    *     *       mailexport
+35         3    *    *     *       save
+5          4    *    *     0       reorg
+0,15,30,45 *    *    *     *       quarter
+11         0    1    *     *       boxstat
+20         0    *    *     *       logback

@@ -1,0 +1,64 @@
+os rm trace/syslog_r.014
+os cp -f trace/syslog_r.013 trace/syslog_r.014
+os cp -f trace/syslog_r.012 trace/syslog_r.013
+os cp -f trace/syslog_r.011 trace/syslog_r.012
+os cp -f trace/syslog_r.010 trace/syslog_r.011
+os cp -f trace/syslog_r.009 trace/syslog_r.010
+os cp -f trace/syslog_r.008 trace/syslog_r.009
+os cp -f trace/syslog_r.007 trace/syslog_r.008
+os cp -f trace/syslog_r.006 trace/syslog_r.007
+os cp -f trace/syslog_r.005 trace/syslog_r.006
+os cp -f trace/syslog_r.004 trace/syslog_r.005
+os cp -f trace/syslog_r.003 trace/syslog_r.004
+os cp -f trace/syslog_r.002 trace/syslog_r.003
+os cp -f trace/syslog_r.001 trace/syslog_r.002
+os cp -f trace/syslog_r.bcm trace/syslog_r.001
+os rm trace/syslog_r.bcm
+os rm trace/eraselog.014
+os cp -f trace/eraselog.013 trace/eraselog.014
+os cp -f trace/eraselog.012 trace/eraselog.013
+os cp -f trace/eraselog.011 trace/eraselog.012
+os cp -f trace/eraselog.010 trace/eraselog.011
+os cp -f trace/eraselog.009 trace/eraselog.010
+os cp -f trace/eraselog.008 trace/eraselog.009
+os cp -f trace/eraselog.007 trace/eraselog.008
+os cp -f trace/eraselog.006 trace/eraselog.007
+os cp -f trace/eraselog.005 trace/eraselog.006
+os cp -f trace/eraselog.004 trace/eraselog.005
+os cp -f trace/eraselog.003 trace/eraselog.004
+os cp -f trace/eraselog.002 trace/eraselog.003
+os cp -f trace/eraselog.001 trace/eraselog.002
+os cp -f trace/eraselog.bcm trace/eraselog.001
+os rm trace/eraselog.bcm
+os rm trace/cmdlog.014
+os cp -f trace/cmdlog.013 trace/cmdlog.014
+os cp -f trace/cmdlog.012 trace/cmdlog.013
+os cp -f trace/cmdlog.011 trace/cmdlog.012
+os cp -f trace/cmdlog.010 trace/cmdlog.011
+os cp -f trace/cmdlog.009 trace/cmdlog.010
+os cp -f trace/cmdlog.008 trace/cmdlog.009
+os cp -f trace/cmdlog.007 trace/cmdlog.008
+os cp -f trace/cmdlog.006 trace/cmdlog.007
+os cp -f trace/cmdlog.005 trace/cmdlog.006
+os cp -f trace/cmdlog.004 trace/cmdlog.005
+os cp -f trace/cmdlog.003 trace/cmdlog.004
+os cp -f trace/cmdlog.002 trace/cmdlog.003
+os cp -f trace/cmdlog.001 trace/cmdlog.002
+os cp -f trace/cmdlog.bcm trace/cmdlog.001
+os rm trace/cmdlog.bcm
+os rm trace/syslog.014
+os cp -f trace/syslog.013 trace/syslog.014
+os cp -f trace/syslog.012 trace/syslog.013
+os cp -f trace/syslog.011 trace/syslog.012
+os cp -f trace/syslog.010 trace/syslog.011
+os cp -f trace/syslog.009 trace/syslog.010
+os cp -f trace/syslog.008 trace/syslog.009
+os cp -f trace/syslog.007 trace/syslog.008
+os cp -f trace/syslog.006 trace/syslog.007
+os cp -f trace/syslog.005 trace/syslog.006
+os cp -f trace/syslog.004 trace/syslog.005
+os cp -f trace/syslog.003 trace/syslog.004
+os cp -f trace/syslog.002 trace/syslog.003
+os cp -f trace/syslog.001 trace/syslog.002
+os cp -f trace/syslog.bcm trace/syslog.001
+os rm trace/syslog.bcm

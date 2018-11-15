@@ -1,0 +1,387 @@
+AKTUELL   Aktuelle Themen allgemein
+news      Aktuelle Nachrichten aller Art
+termine   Terminkalender und Veranstaltungshinweise
+xmas	  Weihnachtsgruesse aller Art
+ALLE      Nachrichten an alle (deutschsprachig)
+all       Nachrichten an alle (englischsprachig)
+aussie    Nachrichten von/an alle australischen Amateurfunker
+dutch     Nachrichten von/an alle daenischen Amateurfunker
+flohmark  nichtkommerzieller An- und Verkauf von Amateurfunksachen
+info      Diverses
+skey      Silent Keys (Sterbemitteilungen von Amateurfunkern)
+todos     Nachrichten an alle (spanischsprachig)
+tous      Nachrichten an alle (franzoesisch)
+BBS       Mailboxen/Mailbox-Software allgemein
+baybox    Baycom/OpenBCM Mailbox-Software DOS/Linux/WinNT
+diebox    TheBox/DieBox Mailbox-Software DOS
+dpbox     DPBox Mailbox-Software Linux/MacOS
+fbb       F6FBB Mailbox-Software DOS/Linux/Win
+msys      Mailbox-Software MSYS
+psbbs     Mailbox-Software PSBBS
+smb       Sprachmailboxen (SMB)
+BETRIEB   Amateurfunkbetrieb allgemein
+ardf      Amateurfunk-Peilen (Amateur Radio Direction Finding)
+bapt      Bundesamt fuer Post und Telekommunikation BAPT (nun Bundesnetzanstalt)
+bmpt      Bundesministerium fuer Post und Telekommunikation
+bnetza    Bundesnetzanstalt
+bpl       Bandplaene
+cept      Europaeische Fernmeldeverwaltungen CEPT
+intruder  Bandeindringlinge, Bandwacht und Bandverteidigung
+notfunk   Notfunk-Aktivitaeten
+qrm       Starkleistungsfunkbetrieb
+qrp       Kleinleistungsfunkbetrieb
+regtp     Regulierungsbehoerde f. Telekommunikation und Post (-> BNETZA)
+BILDER    Bilder aller Art
+aero      Luftbilder
+ascii     Bilder aus ASCII-Zeichen
+BUS       Bild- und Schriftuebertragung allgemein
+amtor     Alles zur Betriebsart AMTOR (Infos AMateur Telex Over Radio)
+aprs      Alles zur Betriebsart APRS (Automatic Position Reporting System)
+atv       Alles zur Betriebsart ATV (Amateur TeleVision)
+ccw       Alles zur Betriebsart Coherent CW (CCW)
+cw        Alles zum Thema Morsen
+clover    Alles zur Betriebsart CLOVER
+eme       Infos zu Erde-Mond-Erde-Amateurfunkverbindungen
+fax       Alles zur Betriebsart FAX (Facsimile-Uebertragung)
+hamdrm    Alles zur Betriebsart HamDRM (HAM-DigitalRadioMondial)
+ms        Infos zu Meteorscatter-Amateurfunkverbindungen
+mt63      Digitale Betriebsart auf Kurzwelle (MT63)
+pactor    Alles zur Betriebsart PACTOR
+psk31     Alles zur Betriebsart PSK31 (Phase Shift Keying)
+rtty      Alles zur Betriebsart RTTY (Radio TeleTYpe)
+sstv      Alles zur Betriebsart SSTV (Slow Scan TeleVision)
+COMPUTER  Computer(-Hardware) allgemein
+amiga     Infos/Software Amiga Computer (A500...A4000)
+amstrad   Infos/Software Amstrad Computer
+apple     Infos/Software Apple Computer (Macintosh)
+archimed  Infos/Software Archimedes Computer
+atari     Infos/Software Atari Computer (ST/TT)
+c64       Infos/Software Commodore64/128
+casio     CASIO Taschenrechner/Computer
+compaq    Infos/Software Compaq Computer
+cpc       Infos/Software CPC Computer
+epson     Infos/Software Epson Computer
+hp        HP Taschenrechner/Computer
+ibm       Infos/Software IBM-PC-komp. Computer (80x86)
+pda       Alles zum Thema Portable Computer
+psion     Alles zum Thema PSION
+sharp     Alles zu Kleincomputern der Marke SHARP
+sinclair  Alles zu Sinclair Computer
+DISTRIKT  Distrikte des DARC
+berlin    DARC-Distrikt BERLIN
+dresden   DARC-Distrikt DRESDEN
+franken   DARC-Distrikt FRANKEN
+hamburg   DARC-Distrikt HAMBURG
+hannover  DARC-Distrikt HANNOVER
+hessen    DARC-Distrikt HESSEN
+kueste    DARC-Distrikt KUESTE
+muenchen  DARC-Distrikt MUENCHEN
+sachsen   DARC-Distrikt SACHSEN
+s-anhalt  DARC-Distrikt SACHSEN-ANHALT
+thuering  DARC-Distrikt THUERINGEN
+DXNEWS    Neuigkeiten im DX-Weitverkehr allgemein
+cluster   Alles zum Thema DX-Cluster-Nodes
+contest   Amateurfunkwettbewerbe allgemein
+cq        CQ-Rufe via PR-Email
+dig       Digital-Diplom
+diplom    Alles zum Thema Diplome und Diplomjaeger
+froebel   Froebel-Diplom
+iota      Islands On The Air (IOTA) Contest
+jota      Jamboree on the Air (JOTA) - Pfadfinder-Funktage
+propag    Prognosen zu Funkbedingungen und Funkwellenausbreitung
+qsl-mg    Infos ueber QSL-Manager und -Adressen
+E         nichtoeffentliche Sysop-Rubrik (ERASE-Mails)
+F         nichtoeffentliche Sysop-Nachrichten
+GERAETE   Amateurfunkgeraete allgemein
+albrecht  Amateurfunkgeraete der Marke ALBRECHT
+alinco    Amateurfunkgeraete der Marke ALINCO
+aor       Amateurfunkgeraete der Marke AOR
+bosch     Amateurfunkgeraete der Marke BOSCH
+daiwa     Amateurfunkgeraete der Marke DAIWA
+drake     Amateurfunkgeraete der Marke DRAKE
+grundig   Amateurfunkgeraete der Marke GRUNDIG
+icom      Amateurfunkgeraete der Marke ICOM
+jrc	  Amateurfunkgeraete der Marke JRC
+kenwood   Amateurfunkgeraete der Marke KENWOOD
+knet	  Packet-Radio-Transceiver K-NET
+manual    Diverse Geraeteanleitungen (Manuals)
+motorola  Amateurfunkgeraete der Marke MOTOROLA
+pmr       Amateurfunkgeraete der Marke PMR
+racal     Amateurfunkgeraete der Marke RACAL
+sony      Amateurfunkgeraete der Marke SONY
+stabo     Funkgeraete der Marke STABO
+standard  Amateurfunkgeraete der Marke STANDARD
+storno    Amateurfunkgeraete der Marke STORNO
+t7f       Packet-Radio-Transceiver T7F
+tentec    Amateurfunkgeraete der Marke TENTEC
+uniden    Amateurfunkgeraete der Marke UNIDEN
+yaesu     Amateurfunkgeraete der Marke YAESU
+HARDWARE  Amateurfunkhardware allgemein
+antennen  Alles zu (Amateurfunk-)Antennen
+linktrx   Interlink-Transceiver fuer Packet Radio
+rmnc      Packet-Radio Knotenrechner RMNC
+HOBBY     Alles moeglich zu anderen Hobbys (ausser Amateurfunk)
+agc       Amateurfunk Geocaching
+beruf     Infos zu Jobs und Beruf
+bier      Die Rubrik vom Bierkanal-Convers
+bike      Motorraeder...
+bos       BOS-Funk
+cb        CB-Funk
+film      Kino und TV-Filme aller Art
+imker     Infos der Bienenzuechter und Imkerfreunde
+kochtopf  Rezepte von Funkamateuren fuer Funkamateure
+landy     Alles zum Thema Landrover-Fahrzeuge
+lyrik     Poesie und Lyrik
+medizin   Alles zum Thema Gesundheit
+mobil     Mobilfunk
+motor     Motorsport, Autos, Motorraeder und alles was droehnt
+puzzle    Puzzle und Raetsel
+scouts    Scouts/Pfadfinder
+spiele    Alles zum Thema Spiele und spielen
+trek      Alles zum Thema StarTREK
+umwelt    Umwelt(schutz)-Themen
+HUMOR     Humor und Witze aller Art
+INTERNET  Alles zum Thema Internet
+KW        Kurzwellen-Amateurfunkbetrieb
+vlf       Infos Langwelle/Laengstwelle
+LITERATU  Amateurfunkliteratur, Informationen
+aprdig
+digest
+esperant  Infos in der Sprache "Esperanto"
+hddig
+lehrgang  Infos zu Amateurfunklehrgaengen
+lexikon   verschiedene Themen mit Fachbetraegen
+pacdig    Sammelboard fuer automatische PR-Rundschreiben
+LOKAL     Lokale Nachrichten
+statisti  Statistik der Mailboxnutzung
+MEINUNG   Aktuelle Diskussionen (deutschsprachig)
+debate    Aktuelle Diskussionen (englischsprachig, weltweit)
+MODEM     Funkmodem
+1200bd    1200bps Packet Radio Modem
+300bd     300bps Packet Radio Modem
+4800bd    4800bps Packet Radio Modem
+4fsk      Alles zum Uebertragungsverfahren 4FSK
+76k8      76800bps Packet Radio Modem
+9600bd    9600bps Packet Radio Modem
+drsi      DRSI-Karten
+uscc      USCC-Karten
+yam       YAM-Modem
+MUSIK     Alles zum Thema Musik
+midi      Infos/Software zum Thema MIDI-Dateien
+NETZE     Allgemeine Infos zu Datennetzen, Funkinformationen
+digi      Automatische Packet-Radio-Amateurfunkstellen (Digipeater)
+echolink  Echolink - Voice over IP (VoIP) fuer Amateurfunk
+eqso      www.eqso.org - Sprechfunkgateway via Internet
+funkruf   Infos Funkrufsysteme nach dem POCSAG-Verfahren
+irlp      Internet Radio Linking Project (IRLP)
+karten    Packet-Radio-Netzkarten, -Kartendaten
+plc       Powerline Communikation (PLC)
+sysop     Allgemeine Sysopinfos
+wires     Wide-Coverage Internet Repeater Enhancement System (WIRES)
+wlan      Wireless LAN
+NODESOFT  Knotenrechnersoftware allgemein
+bpq       Knotenrechnersoftware von G8BPQ
+flexnet   Knotenrechnersoftware PC/FlexNet
+fpac      Knotenrechnersoftware FPAC
+netrom    NETROM-basierende Knotenrechnersoftware
+nos       xNOS-Knotenrechnersoftware
+rose      Knotenrechnersoftware ROSE
+snet      Knotenrechnersoftware SNET
+thenet    Knotenrechnersoftware TheNet und TheNetNode
+wampes    Wuerttemberger Amateur Packetradio Experiment Software
+xnet      Knotenrechnersoftware 3NET, XNET, LinuxNET
+xrouter   Knotenrechnersoftware XROUTER
+P         nichtoeffentliche Rubrik fuer POCSAC-Mails
+PING      Verarbeitungsrubrik fuer PING-Requests an andere Mailboxen
+R         nichtoeffentl. Verteilung von Mailbox-Run-Utilities
+RUNDFUNK  Rundfunk allgemein
+sattv     Satellitenempfang und TV
+swl       Kurzwellen-Empfang (ShortWaveListener)
+SCHULE    Amateurfunk in der Schule
+jugend    Jugend- und Ausbildungsreferat des DARC
+SECURITY  Sicherheit in Datennetzen allgemein
+pgp       Infos Software Pretty Good Privacy
+pgpkeys   Sammlung von oeffentlichen PGP Schluesseln
+SOFTWARE  Software allgemein
+agw       AGW-Packet von SV2AGW (Win95/98 PR-Programm)
+alpha     Infos zur Software ALPHA
+baycom    Baycom Terminal BCT (Terminalsoftware)
+clx       Die Cluster-Serversoftware CLX
+digitrx   DigiTRX von PY4ZBZ (SSTV und andere digitale Betriebsarten)
+ep98      EasyPacket98 (Windows PR-Programm)
+epp       EPP (PacketRadio-Client, Vorgaenger von WPP)
+gp        Graphic Packet GP (DOS/OS2/Win95 PR-Programm)
+jvfax     JVFax (DOS FAX-Programm)
+jvcomm    JVComm32 (Windows-Programm fuer SSTV, FAX...)
+linkt     LinKT (Linux-KDE PR-Programm)
+mcut      MCut (Linux/DOS PR-Programm)
+mixw      MixW32 von UT2UZ (Windows-Programm fuer digitale Betriebsarten)
+mud       MUD-Software (textbasiertes Adventurespiel)
+nbf       NBF (Windows PR-Programm)
+npg       NPG/New-Packet-Generation (DOS PR-Programm)
+pascal    Programmiersprache PASCAL
+paxon     Paxon (Windows PR-Programm)
+progspr   Programmiersprachen allgemein
+sally     Sally (Windows PR-Programm)
+sp        Eskay Packet SP (DOS PR-Programm)
+stop      STOP von DL8NJY (DOS PR-Programm)
+swisslog  Swisslog (Logbuch-Programm)
+t4        T4 (DOS PR-Programm)
+tnt       TNT (Linux PR-Programm)
+top       The Other Packet TOP (DOS PR-Programm)
+tpk       TPK (franzoesisches PR-Programm)
+tsthost   TSTHost (DOS und Win95 PR-Programm)
+uiview    UI-VIEW32 (APRS-Programm)
+virus     Infos Computerviren und ihre Bekaempfung
+vp        Visual Packet VP (Windows PR-Programm)
+wingt     WinGT (Windows PR-Programm)
+winhn     WinHN (PR-Programm DOS/Windows)
+winlink   Winlink (Amtor, Pactor und PR-Programm)
+winpack   WinPack (Windows PR-Programm)
+winpr     WinPR (Windows PR-Programm)
+winstop   WinSTOP (Windows PR-Programm)
+wintnc    WinTNC (Windows PR-Programm)
+wpp       WPP (Windows PR-Programm)
+wwconv    Infos zum WW-Convers
+xarpm     XARPM (Linux)
+xpacket   XPacket XP (DOS PR-Programm)
+SPACE     Weltraummissionen, Weltraumforschung...
+amsat     Infos AMSAT Organisation
+ariane    ARIANE-Raketen ESA
+esa       Europaeische Weltraumbehoerde ESA
+iss       Raumstation ISS
+kepler    Keplerelemente
+mir       Raumstation MIR
+nasa      Amerikanische Weltraumbehoerde NASA
+rovers    Mars-Rover
+sarex     SAREX-Missionen
+satellit  Satelliten allgemein
+seti      Die Suche nach ausserirdischem Leben (SETI)
+ufo       Alles ueber unerklaerliche Flugobjekte (UFOs)
+SPORT     Sport allgemein
+cricket   Alles zum Thema Cricket
+fussball  Alles zum Thema Fussball
+rugby     Alles zum Thema Rugby
+SUCHE     Suche allgemein
+aide      Hilfsgesuche (franzoesisch)
+geklaut   Infos ueber gestohlene Amateurfunkgeraete
+help      Hilfsgesuche (englisch)
+problem   Hilfsgesuche
+wanted    Suche (englisch)
+SYSTEM    Computerbetriebssysteme allgemein
+dos       Infos/Software rund um das Betriebssystem MS-DOS
+linux     Infos/Software rund um das Betriebssystem LINUX
+os2       Infos/Software rund um das Betriebssystem OS/2
+unix      Infos/Software rund um das Betriebssystem UNIX
+windows   Infos/Software rund um das Betriebssystem Windows
+T         internes Board zur TELL-Bearbeitung
+TCPIP     TCP/IP Protokolle allgemein
+html      Infos HyperText Markup Language (HTML)
+tcpdig    TCP/IP Digest
+TECHNIK   Technik allgemein
+ax25      Das Packet-Radio-Protokoll AX.25
+dama      Alles zum Packet Radio Betriebsmodus DAMA
+dsp       Digitale Signalprozessoren (DSP)
+emv       Elektromagnetische Vertraeglichkeit EMV
+gps       Infos zur globalen Positionsfeststellung mittels Satellit
+gsm       Infos zu Mobiltelefonen
+mips      Microprocessor without interlocked pipeline stages (MIPS)
+relais    Infos Amateur-Relaisfunkstellen
+rpc       RPC (Radio Paging Controller) von DL3KHB
+sheets    Datenblaetter zu diversen Halbleitern im PDF-Format
+yapp      YAPP - Packet Radio Datei-Uebertragungsprotokoll
+TEST      Rubrik fuer diverse Tests
+TMP       Mainboard fuer nicht automatisch zugeordnete Subboards
+TNC       Terminal-Node-Controller allgemein
+aea       Infos AEA
+kam       Infos Kantronic-TNC
+mfj       Infos TNCs von MFJ
+pk12      Infos PK12
+pk232     Infos PK232
+pk88      Infos PK88
+pk900     Infos PK900
+ptc       Infos PTC (II)
+tnc2      Infos TNC2-kompatible
+tnc3      Infos Symek TNC3 / TNC31
+tnc4      Infos TNC4e
+UKW       Ultrakurzwellen allgemein
+50mhz     Infos ueber das 50MHz (=6m) Band
+baken     Infos ueber Amateurfunk-Bakensender
+flugfunk  Infos/Software Flugfunk
+vhf       Infos zu VHF 30-300 MHz (2m)
+uhf       Infos zu UHF 0.3-3 GHz (70cm, 23cm, 13cm)
+shf       Infos zu SHF 3-30 GHz (6cm, 3cm, 1.5cm)
+VEREINE   Amateurfunkvereine allgemein
+aara      Südafrikanischer Amateurfunkverband (AARA)
+adacom    Fachverband fuer Amateurdatenfunk ADACOM
+afm       Foerderverein AmateurFunkMuseum
+agcw      Arbeitsgemeinschaft CW (AGCW)
+agz       Arbeitsgemeinschaft Zukunft (AGZ)
+ampack    Amateur-Packet-Radio-Verein in Bayern (AMPACK)
+amrs      Austrian Military Radio Society (AMRS)
+ares      Amateur Radio Emergency Services (ARES)
+arrl      American Radio Relay League (ARRL)
+bafara    Belgian Air Force Amateur Radio Association (BAFARA)
+blind     Interessengemeinschaft Blinder Funkamateure
+convenia  Funkamateure im kirchlichen Dienst (Conveniat)
+dafk      Deutsch-Arabischer-FreundesKreis (DAFK)
+darc      Deutscher Amateur Radio Club (DARC)
+dubus     Magazin fuer Amateurfunk auf VHF, UHF & SHF (DUBUS)
+evu       Waterkant-Freunde (EVU-Runde)
+fcf       Freundeskreis christlicher Funkamateure (FCF)
+ffr       FliegerFunkRunde (FFR)
+firac     Verband der Eisenbahner-Funkamateure (FIRAC)
+grac      Groupe des Radio Amateurs Cheminots (GRAC) aus Frankreich
+hh-pr     Packet-Radio Club der Hansestadt Hamburg
+iaru      International Amateur Radio Union (IARU)
+ibfd      Interessengemeinschaft Blinder Funkamateure Deutschlands (IBFD)
+idcf      Camping-Funker (IDCF)
+igao      Interessengruppe Amateurfunk Oberfranken (IGAO)
+igarag    Interessengemeinschaft Amateurfunk im Bergbau (IGARAG)
+iparc     International Police Assocation Radio Club (IPARC)
+irts      Irish Radio Transmitter Society (IRTS)
+light     Leuchtturm/Lighthouse/Lightship-Freunde
+mf        Marine-Funker (MF)
+nafras    Netherland Air Force Radio Amateur Society (NAFRAS)
+navnet    Navy-Net (Funker in der US-Navy)
+nordlink  Nord><Link e.V.
+oevsv     Oesterreichischer Versuchssenderverband (OEVSV)
+rac       Radio Amateurs of Canada (RAC)
+rafars    Royal Air Force Amateur Radio Society (RAFARS)
+ref       Reseau des Emetteur Francais (REF)/Union Francaise des Radioamateur
+rsars     Royal Signals Amateur Radio Society (RSARS)
+rsgb      Radio Society GB (RSGB)
+rta       Runder Tisch Amateurfunk (RTA)
+rtc       Radio Telegraphy Club (RTC)
+sarc      Southgate Amateur Radio Club (SARC)
+sarl      South African Radio League (SARL)
+sota      Summits on the Air/Berggipfel in der Luft (SOTA)
+svima     SVIMA - News aus 9A
+tapr      Tucson Amateur Packet Radio (TAPR)
+teutolnk  Arbeitsgemeinschaft Teutolink/Paderborn
+tolc      The Organized Liars Club (TOLC)
+trac      Tuerkischer Amateur Radio Club (TRAC)
+uft       L'Union Francaise des Télégraphistes (CW)
+urc       L'Union des Radio-Club (URC)
+uska      Union schweizerischer Kurzwellen-Amateure (USKA)
+vets      Rubrik der (Kriegs-)Veteranen
+vfdb      Verband der Funkamateure der Deutschen Bundespost (VFDB)
+vsem      VSEM - News aus S5
+wacral    World Association of Christian Radio Amateurs&Listeners (englisch)
+warc      Westlakes Amateur Radio Club (WARC) aus Australien
+westlink  West><Link e.V.
+wia       Wireless Institute of Australia (WIA)
+wicen     Wireless Institute Civil Emergency Network Australia (WICEN)
+wlrb      World Link RTTY Bulletin (WLRB)
+yl        Rubrik der weiblichen Funkamateure
+zgpzk     Polnische Funkamateure (ZGPZK)
+W         System-Rubrik
+WETTER    Wetterberichte allgemein
+asynop    ASYNOP - meteorologische News vom WXNET
+funkwx    Funkwetter: Vorhersagen zur Funkwellenausbreitung...
+solar     Sonnendaten und Vorhersagen zur Funkwellenausbreitung
+wefax     Wetter-FAX
+wx-info   Allgemeine Infos zum Thema WETTER
+wxsat     Wettersatellit(en)
+WP        System-Rubrik
+Z         nichtoeffentliche Muellrubrik der Sysops

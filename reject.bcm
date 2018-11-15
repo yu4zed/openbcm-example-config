@@ -1,0 +1,73 @@
+; reject.bcm fuer Baybox
+;
+; Stand 26.01.2003, DGT274@DBO274.#NRW.DEU.EU / dh8ymb(at)web.de
+; ----------------------------------------------------------------------------
+; Das Format einer Reject-Zeile in "reject.bcm" ist:
+; <Aktion> [<sender] [>dest] [$bid] [@at] [ .B | .P ] ;Kommentar
+;
+; Bedeutung von <Aktion>:
+; R = Nachricht wird abgewiesen (rejected)
+; G = Nachricht wird abgewiesen (rejected), wenn Lokal ohne AX25-PW eingegeben
+; E = Nachricht wird abgewiesen (rejected), wenn Lokal ohne AX25/TTYPW eingegeben
+; F = Nachricht wird auf Hold gesetzt, wenn S&F nicht passwortgeschuetzt ist
+; H = Nachricht wird auf Hold gesetzt
+; L = Nachricht wird auf Hold gesetzt, wenn Lokal eingegeben
+; P = Nachricht wird auf Hold gesetzt, wenn ohne AX25-PW eingegeben
+; O = Nachricht wird auf Hold gesetzt, wenn ohne AX25/TTYPW eingegeben
+;
+; [<sender]  Absenderrufzeichen
+; [>dest]    Empfaenger (Board oder Rufzeichen)
+; [$bid]     Ein bestimmtes (Teil-)BID
+; [@at]      Adresse (Verteiler oder Mailboxrufzeichen)
+; .B         Bulletin
+; .P         persoenliche Nachricht
+;
+; Als Jokerzeichen sind "?" (beliebiges Zeichen) und "*" (mehrere beliebige
+; Zeichen oder kein Zeichen) moeglich. Ein "*" kann auch am Anfang oder mitten
+; im String angegeben werden. Zur Negierung eines Ausdrucks kann dem String ein
+; "!" vorangestellt werden, z.B. wuerde die Zeile
+;     R @DB0IRS >!DH3MB
+; bewirken, dass alle Nachrichten rejected werden, die an DB0IRS adressiert
+; sind und nicht an DH3MB gehen (nicht sinnvoll). Als String kann ein "regul‰rer
+; Ausdruck" verwendet werden, siehe auch HELP REGULAR.
+;
+; Mit diesem Feature sollte vorsichtig umgegangen werden, eine Zeile
+;     R <*CB*
+; wuerde mehr sperren als auf dem ersten Blick vermutet und wuerde manche OMs
+; nicht sehr erfreuen!
+;
+; Einige Beispiele:
+; einige CB-Rufzeichen sperren
+;  R <CB?CB
+; FLOHMARKT-Mails sperren
+;  R >FLOHM*
+; Weltweite MEINUNGs-Mails gar nicht erst annehmen
+;  R >MEINU* @WW
+; Einige BIDs von CB-Mailboxen sperren
+;  R $*K1MBBS*
+;  R $*CH1BBS*
+; Generell alle Rubrikmails, die ohne AX25-Passwort eingespielt wurden
+; auf "HOLD" setzen (Parameter HOLDTIME muﬂ gesetzt sein!)
+;  P .B
+; alle ohne AX25-Passwort lokal eingegebenen Rubrikmails ablehnen
+;  G .B
+; alle ohne AX25-Passwort lokal eingegebenen Rubrikmails ablehnen, auﬂer
+; wenn sie von den Calls, die mit DB0 beginnen, oder dem Call DH8YMB stammen
+;  G .B <!(^DB0,^DH8YMB
+;  ------------------
+;
+; Eine Zeile kann mehrere Bedingungen enthalten. Nur wenn alle Bedingungen
+; erfuellt sind, wird die <Aktion> ausgefuehrt.
+;
+R <^F1AKE$
+R <^GMXRED$
+R <^WR2BBS$
+R $DBO
+R $DBQ
+R $DBX
+R $BE4BOX
+R $EU1FWD
+R $K1MBBS
+R $NL3AAB
+R $NL3PND
+R $WR2BBS

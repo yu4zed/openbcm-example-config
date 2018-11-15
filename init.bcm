@@ -1,0 +1,60 @@
+; --- mailbox ---
+boxaddress MYCALL.#BAY.DEU.EU
+boxheader BayCom-Mailbox
+sysopcall DL8MBT
+infopath info
+userpath user
+savebroken 2
+remerase 1
+maxbids 300000
+; --- packet interface ---
+mycall
+fwdssid 8
+; --- tcp/ip interface ---
+http_port 8080
+smtp_port 8025
+pop3_port 8110
+nntp_port 8119
+telnet_port 4719
+serv_port 8123
+; --- timers ---
+utcoffset -1
+infolife 10
+userlife 120
+oldestfwd 30
+fwdtimeout 30
+crtsave 0
+; --- logging ---
+tracelevel 1
+fwdtrace 0
+eraselog 0
+; --- system ---
+disable 0
+usvsense 0
+watchdog 6
+ttymode OFF
+dosinput 1
+sysopbell 0
+; --- user constraints ---
+userquota 0
+maxlogins 0
+cmdppconv off
+cmdwwconv off
+userpw 1
+readlock 0
+createboard 1
+; --- server ---
+; --- user defaults ---
+defprompt (%b)-->
+defcmd D
+defhelp 2
+deflines 0
+deflf 0
+defidir ADEKLMWYZ
+defudir ADKLMTWYZ
+defilist ABDJQTWXY
+defulist ABDJQTWXY
+defiread ABDEILMPRTUWYZ
+defuread ABDEILMPRTUWYZ
+defcheck ABDEJLMWY
+defgrep I

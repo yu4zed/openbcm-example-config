@@ -1,0 +1,14 @@
+; Converts bulletin directors
+; Syntax: <old director> <new director>
+; each line one pair, separated through a blank
+AT OE
+DEU DL
+GER DL
+DLOE DL
+OEDL DL
+BAOE DL
+ALLE DL
+ALL WW
+EURO EU
+EUR EU
+AUT OE

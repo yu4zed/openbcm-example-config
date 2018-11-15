@@ -1,0 +1,8 @@
+o mkdir backup
+o mv -f backup/bu006.tgz backup/bu007.tgz
+o mv -f backup/bu005.tgz backup/bu006.tgz
+o mv -f backup/bu004.tgz backup/bu005.tgz
+o mv -f backup/bu003.tgz backup/bu004.tgz
+o mv -f backup/bu002.tgz backup/bu003.tgz
+o mv -f backup/bu001.tgz backup/bu002.tgz
+o tar zcvf backup/bu001.tgz *.bcm

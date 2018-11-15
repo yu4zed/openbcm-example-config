@@ -1,0 +1,45 @@
+#!/bin/sh
+#
+# Startup script for BayCom-Mailbox
+# 
+# put the following entry into /etc/inittab and start with "kill -HUP 1" 
+#   "bc:45:respawn:/bcm/startbcm" 
+#
+sleep 20
+BCMHOME=/bcm
+export BCMHOME
+# export TZ=GMT+0GMT
+cd $BCMHOME
+PATH=/bin:/usr/bin:/usr/local/bin:/bcm:/bcm/runutils
+export PATH
+alias ll='ls -l'
+alias dir='ls -la'
+# alias -='cd ..'
+# alias m='cat'
+#
+# remove comment if necessary!
+# source .bash_profile
+#
+# check if somebody wants to install a new version
+if [ -f bcm_new ] 
+then
+  mv -f bcm bcm_old
+  mv -f bcm_new bcm
+  chmod 777 bcm
+fi  
+#
+# start bcm as user "bcm"
+# redirect tracer outputs to system console
+#
+if [ -f nobcm ]
+then
+  echo "BCM execution stopped. Remove nobcm for continue."
+  sleep 20
+else
+   su root -s $BCMHOME/bcm >/dev/tty8
+#  su bcm -s $BCMHOME/bcm >/dev/console 
+fi  
+#
+# wait some time to release network bindings before respawning
+#
+sleep 20

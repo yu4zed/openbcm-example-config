@@ -1,0 +1,164 @@
+AKTUELL   Nachrichten/Aktuelles
+adressen  diverse Adressen
+amnesty   Infos zu Amnesty International
+callinfo  Infos zu User-Rufzeichen/Boxen/Nodes
+horoskop  Horoskope
+pc-news   PC-Welt u.a. Newsletter
+termine   Terminkalender, Veranstaltungshinweise
+xmas      Weihnachtswuensche
+ALLE      Mitteilungen an alle
+AMTOR     Infos zur Betriebsart "AMateur Telex Over Radio" (=AMTOR)
+ANTENNEN  Informationsaustausch und Tips rund um Antennen
+BERUF     Berufs-Infos
+BETRIEB   Infos zu Betriebsarten
+afu       Informationen zum Amateurfunk
+bos       BOS Rettungsfunk
+cb        Infos/Aktuelles rund um den CB-Funk
+frequenz  Frequenz-Listen
+netze     Rufzeichenlisten, PR-Netz-Infos
+regtp     Infos der Regulierungsbehoerde RegTP
+BILDER    Bilder aller Art
+asciiart  ASCII-Bilder
+manga     Manga-Bilder
+userbild  Bilder von Usern
+COMPUTER  Infos zu Computern
+amiga     Infos zu Amiga Computern
+apple     Infos zu APPLE Computern
+atari     Infos zu ATARI Computern
+c64       Infos zu Commodore Computern
+hp        Infos zu HP Taschenrechnern
+ibm       Infos zu IBM Computern
+CW        CW - Betriebsart Morsen
+DX        Infos zum DX-Weitverkehr, Solarvorhersagen...
+F         nichtoeffentliche Sysop-Nachrichten
+FAX       Infos zur Betriebsart "Facsimile-Uebertragung" (=FAX)
+FWD       Forward-Infos und -Gesuche
+GAMEZONE  diverse Spieleinfos, Patche und Loesungshilfen
+goldgame  klassische Spiele fuer den PC
+GEDICHTE  Gedichte & Lyrik
+HARDWARE  Infos zur PC Hardware
+HOBBY     Alles rund um andere Hobbies
+pactor    Infos zur Betriebsart PACTOR
+rtty      Infos zur Betriebsart Radio TeleTYpe (RTTY)
+pinwand   Nichtkommerzieller An-/Verkauf, Funkflohmarkt
+humor     Witze & Humor
+rezepte   Rezepte aller Art
+swl       Kurzwellen-Empfang, Short-Wave-Listener (SWL)
+INTERNET  Infos ueber das Internet/Homepage-Tips etc.
+html      HyperText Markup Language (HTML), HTML-Bausteine
+LOKALES   Infos rund um DBO274
+statisti  Lokale Mailboxstatistik von DBO274
+lexikon   verschiedene Themen mit Fachbetraegen
+MUSIK     Infos und Software rund um das Thema Musik
+midi      Infos und Software zum Thema MIDI-Dateien
+NETZE     Infos zu Datennetzen und Rufzeichenlisten
+NODESOFT  Nodesoftware/Knotenrechnersoftware allgemein
+bpq       Knotensoftware von G8BPQ
+flexnet   Knotensoftware FlexNet (PC)
+fpac      Knotensoftware FPAC
+netrom    NETROM-basierende Knotenrechnersoftware
+rmnc      Knotenrechner RMNC und RMNC/FlexNet-Software
+rose      Knotensoftware ROSE
+sv        Knotensoftware SuperVozelj SV
+thenet    Knotensoftware TheNet und TheNetNode TNN
+wampes    Wuerttemberger Amateur Packetradio Experiment Software (WAMPES)
+xnet      Knotensoftware XNET (TNC3, Atari, DOS, WinNT, Linux)
+OS        Computerbetriebssysteme allgemein
+amiga     Infos und Software Amiga Computer (A500...A4000)
+apple     Infos und Software Apple Computer (Macintosh)
+atari     Infos und Software Atari Computer (ST/TT)
+c64       Infos und Software Commodore64/128
+hp        Infos und Software HP Taschenrechner
+ibm       Infos und Software IBM-PC-komp. Computer (80x86)
+linux     Infos und Software LINUX/UNIX
+msdos     Infos und Software MS-DOS
+os2       Infos und Software IBM OS/2 
+R         nichtoeffentl. Verteilung von Mailbox-Run-Utilities
+RUNDFUNK  Alles zum Thema Rundfunk allgemein
+sattv     Satelliten-Fernsehempfang
+SATELLIT  Amateurfunksatelliten und Satelliten allgemein
+kepler    Rubrik fuer Keplerelemente/Keplerdaten
+WELTRAUM  Infos und Software rund um Weltraummissionen/Weltraumforschung
+SCHULE    Amateurfunk in der Schule
+jugend    Jugend und Ausbildung, Jugend- u. Ausbildungsreferat des DARC
+SECURITY  Sicherheit in Datennetzen allgemein
+pgp       Infos und Software Pretty Good Privacy (PGP)
+pgpkeys   Sammlung von oeffentlichen PGP Schluesseln
+SOFTWARE  Software allgemein
+agw       PR-Software: AGW-Packet von SV2AGW fuer Win95/98
+baycom    PR-Software: Baycom Terminal (BCT)
+clx       Dx-Cluster-Software CLX
+ep98      PR-Software: EasyPacket98 (EP98) fuer Win95/98
+epp       PR-Software: EinPacketProgramm (EPP) fuer Flexnet und Win95/98
+baybox    BayCom-Mailbox-Software (DOS/Linux/WinNT)
+diebox    TheBox/Diebox-Mailbox-Software (DOS)
+dpbox     DP-Box-Mailbox-Software (Linux)
+fbb       F6FBB-Mailbox-Software (DOS/Linux/Win)
+gnom      PR-Software: GNOM von DG6VJ/DG4IAD (Linux)
+gp        PR-Software: Graphic Packet GP (DOS/OS2/Win95)
+jnos      PR-TCPIP-Software: JNOS (TCPIP-KA9Q-Derivat)
+linkt     PR-Software: LinKT (Linux/KDE)
+mcut      PR-Software: MCUT (Linux/DOS)
+npg       PR-Software: NPG - NewPacketGeneration (DOS)
+paxon     PR-Software: Paxon (Win95/98 und Flexnet/Hostmode)
+sally     PR-Software: SALLY (Windows)
+sp        PR-Software: Eskay Packet SP (DOS)
+stop      PR-Software: STOP von DL8NJY (DOS), TOP-Clone
+tnos      PR-TCPIP-Software: TNOS - TampaNOS (TCPIP-KA9Q-Derivat)
+top       PR-Software: TOP - The Other Packet TOP (DOS)
+tpk       PR-Software: TPK
+tsthost   PR-Software: TSTHost (DOS und Win95)
+virus     Computerviren und ihre Bekaempfung
+vp        PR-Software: Visual Packet VP und VP98 (Win3.1x, Win95/98)
+win95     Infos und Software fuer Windows95
+win98     Infos und Software fuer Windows98
+windows   Infos und Software fuer Windows3.x
+wingt     PR-Software: WinGT (Windows)
+winhn     PR-Software: WinHN (DOS/Win95)
+winlink   Winlink (Amtor, Pactor und Packet)
+winpack   PR-Software: WinPack (Windows)
+winpr     PR-Software: WinPR (Windows)
+wintnc    PR-Software: WinTNC (Windows)
+wnos      PR-TCPIP-Software: WNOS (TCPIP-KA9Q-Derivat)
+xpacket   PR-Software: XP - XPacket (DOS), TOP-Clone
+problem   Hilfegesuche
+T         internes Board zur TELL-Bearbeitung
+SPORT     aktuelle Sport Infos
+formel1   Alles rund um die Formel1
+fussball  Alles rund um die Ballsportart Fussball
+wrestle   Alles rund ums Wrestlen
+SSB       Infos zur Betriebsart "Single Side Band" (=SSB)
+SSTV      Infos zur Betriebsart "Slow Scan TeleVision" (=SSTV)
+SWL       "Shortwave-Listener", Infos zu Kurzwellenfunk
+TCPIP     TCP/IP ueber Funk, Domainname-Listen
+TECHNIK   Technik allgemein (Geraetemodifikationen etc.)
+hi-speed  MHE High-Speed Technik
+hifi      HiFi Infos
+TMP       Mainboard fuer nichtautomatisch zugeordnete Subrubriken
+TELEFON   Telefone, Handys und Telefonanbieter
+TEST      Test-Rubrik
+TNC       Terminal-Node-Controller (TNC)
+UMWELT    Umweltthemen
+greenpce  Greenpeace
+natur     Natur
+VEREINE   Amateurfunkvereine allgemein
+cvsaar    CV Saar
+dakfcbnf  DAKfCBNF
+dg-saar   Digigruppe Saar
+dor       DOR
+eagles    Eagles Club
+ek2000    EK2000
+igdf      IG DF
+onair     On Air
+pr-wahn   PR-Club "PR-Wahn" Paderborn
+prighh    PR IG Hamburg
+prkt      PR KT
+rnk       RNK-Gruppe
+rtr       RTR
+scoutnet  Scouts/Pfadfinder-Rubrik
+urc       URC-Gruppe
+WELTRAUM  Infos zum Weltraum
+ufo       Alles rund um UFO's
+WETTER    Wetterberichte allgemein
+WP        WP-Mails
+Z         nichtoeffentliche Sammelrubrik unerwuenschte Bulletins

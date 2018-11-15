@@ -1,0 +1,28 @@
+; Configuration file for AX.25 support of OpenBCM BBS using Linux
+; Last change: 02.09.96
+;
+; **************************************************************************
+dcall    df0ar-8    ; node callsign (only useful if using >1 section)
+monitor  4          ; monitor see BayCom-Terminal 1.60,
+mselect  0          ; see above
+mcalls   -0         ; see above
+; **************************************************************************
+assign   kiss
+mode     19200cd    ; if KISS is used, configure the baud rate
+                    ; "c" => switch on KISS-CRC checksum (use this!!)
+device   /dev/ttyS0 ; serial device or pseudo-TTY
+; **************************************************************************
+assign axip
+device 62.52.19.193 ; hostname or ip number (of target) for connection
+                    ; over axip
+port     4718       ; portnumber ( <1024 only as root process)
+txport 5718         ; using port 5718 for TX
+; **************************************************************************
+; You can define more than one KISS or AXIP sections. The sections are
+; listed in that way the channels are using the devices.
+;
+; The default device should be defined first. Then, this device can always
+; be used without adding a channel number.
+; If using AXIP, you can also define an additional parameter:
+; txport <portnumber>
+; if RX and TX should use different ports.

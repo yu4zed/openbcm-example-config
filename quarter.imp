@@ -1,0 +1,3 @@
+oshell tellresp
+sleep 30
+batch tellresp

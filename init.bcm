@@ -11,8 +11,10 @@ maxbids 300000
 mycall
 fwdssid 8
 ; --- tcp/ip interface ---
-http_port 8080
-smtp_port 8025
+; http_port 8080
+http_port 8180
+; smtp_port 8025
+smtp_port 8125
 pop3_port 8110
 nntp_port 8119
 telnet_port 4719

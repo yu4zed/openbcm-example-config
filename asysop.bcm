@@ -1,1 +1,6 @@
-DB1ABC DB0ABC none
+; Format of "asysop.bcm":
+;  call uplink downlink
+; Example:
+;   DJJ812 none none (directly connectable)
+;   DJJ812 DBO812-2 DBO812-2 (if the SSID of entry ports is -2) 
+DB1ABC none none

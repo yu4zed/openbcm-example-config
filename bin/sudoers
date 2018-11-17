@@ -1,0 +1,9 @@
+
+bbs ALL= NOPASSWD: /usr/bin/systemctl restart openbcm
+bbs ALL= NOPASSWD: /usr/bin/systemctl stop openbcm
+bbs ALL= NOPASSWD: /usr/bin/systemctl start openbcm
+bbs ALL= NOPASSWD: /usr/bin/systemctl status openbcm
+bbs ALL= NOPASSWD: /usr/bin/systemctl enable openbcm
+bbs ALL= NOPASSWD: /usr/bin/systemctl disable openbcm
+
+

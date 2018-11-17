@@ -1,0 +1,23 @@
+
+
+[Unit]
+Description=openbcm
+After=syslog.target network.target
+
+[Service]
+User=bcm
+Group=bcm
+Environment=HOME=/home/bcm
+Environment=BCMHOME=/bcm
+Type=simple
+WorkingDirectory=/bcm
+ExecStart=/bcm/bin/bcm
+KillMode=process
+KillSignal=SIGINT
+TimeoutStopSec=90
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
